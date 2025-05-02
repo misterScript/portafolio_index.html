@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!-- Menu______________________________________________________________ -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Nick</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#Curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Seccion inicio___________________________________________________________________ -->
+    <section id="inicio" class="inicio">
+        <div class="contenedor-banner">
+            <div class="contenedor-img">
+                <img src="img/Perfil.png" alt="">
+            </div>
+            <h1>Nombre Profesional</h1>
+            <h2>Profesión</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://cl.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE MI_________________________________________________________________ -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenedor-seccion">
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, Soy 'Nombre del profesional'</span> Profesional de marketing digital con 5 años de
+                experiencia
+                en la creación y gestión de campañas online. Especializado en SEO, SEM, redes sociales y email
+                marketing. Busco un puesto donde pueda aplicar mis conocimientos y habilidades para impulsar el
+                crecimiento de una empresa</p>
+
+            <div class="fila">
+                <!-- DATOS PERSONALES-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-01-1998
+                        </li>
+                        <li>
+                            <strong>Contacto</strong>
+                            +569 22222222
+                        </li>
+                        <li>
+                            <strong>Correo</strong>
+                            muestra@example.com
+                        </li>
+                        <li>
+                            <strong>WebSite</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Example N°21
+                        </li>
+                        <li>
+                            <strong>Disponibilidad</strong>
+                            <span>Inmediata</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- INTERESES -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Video Juegos</span>
+
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Escuchar Musica</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>Informatica</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Senderismo</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Lectura</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Conducción</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotografia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="pdf/CV prueba.pdf" download="CV_Prueba">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SKILLS___________________________________________________________________________ -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum_______________________________________________________________ -->
+     <section id="Curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+            <!-- Lado Izquierdo______________________________________________ -->
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de los Lagos</span>
+                        <span class="fecha">2023</span>
+                        <p>descripción del tiempo que pasamos en la carrera</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de los Lagos</span>
+                        <span class="fecha">2023</span>
+                        <p>descripción del tiempo que pasamos en la carrera</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de los Lagos</span>
+                        <span class="fecha">2023</span>
+                        <p>descripción del tiempo que pasamos en la carrera</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Lado Derecho___________________________________________________ -->
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de la empresa</span>
+                        <span class="fecha">2025</span>
+                        <p>descripción del Cargo</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analista Back-End</h4>
+                        <span class="casa">Nombre de la empresa</span>
+                        <span class="fecha">2025</span>
+                        <p>descripción del Cargo</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Automatización Drone</span>
+                        <span class="fecha">2025</span>
+                        <p>descripción del cargo</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Portafolio______________________________________________________________ -->
+     <section id="portafolio" class="portafolio">
+            <div class="contenido-seccion"></div>
+                <h2>PORTAFOLIO</h2>
+                <div class="galeria">
+                    <div class="proyecto">
+                        <img src="img/768f3c102169215.Y3JvcCw4NTIsNjY3LDcxLDA.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/02.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/03.png" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/04.jpeg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/05.jpg" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/06.png" alt="">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     </section>
+
+<!-- Contacto_____________________________________ -->
+     <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>CONTACTO</h2>
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" id="nombre" placeholder="Tu Nombre">
+                        <input type="text" id="telefono" placeholder="Número Telefonico">
+                        <input type="text" id="correo" placeholder="Dirección de Correo">
+                        <input type="text" id="tema" placeholder="Tema">
+                        <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button id="enviarMensajeBtn">
+                            Enviar Mendaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!-- Mapa -->
+                     <div class="col">
+                            <img src="img/ubicación.png" alt="">
+                            <div class="info">
+                                <ul>
+                                    <li>
+                                        <i class="fa-solid fa-location-dot"></i>
+                                        san pablo N°789, Chile
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-mobile-screen"></i>
+                                        +569 55555555
+                                    </li>
+                                    <li>
+                                        <i class="fa-solid fa-envelope"></i>
+                                        Email: Example@Example.cl
+                                    </li>
+                                </ul>
+                            </div>
+                     </div>
+                </div>
+            </div>
+     </section>
+
+     <!-- Footer_____________________________________________________ -->
+      <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/?lang=es"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://cl.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </footer>
+
+    <script src="Funcionalidad.js"></script>
+
+</body>
+
+</html>
